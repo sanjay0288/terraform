@@ -6,7 +6,7 @@ provider "aws" {
 module "ec2_instance" {
   source = "./ec2_instance"
   # Pass variables to the module
-  instance_name= "sas"
+  instance_name= "Inst_Git"
   image_id = "ami-03f4878755434977f"
   instance_type="t2.micro"
   key_name="Sanjay"
